@@ -1,18 +1,12 @@
 {
   "name": "otonoki-task-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "discord.js": "^14.24.2",
-    "node-cron": "^4.2.1",
-    "sqlite3": "^5.1.7"
+    "discord.js": "^14.0.0"
   }
 }
