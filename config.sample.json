@@ -1,0 +1,22 @@
+{
+  "botToken": "YOUR_BOT_TOKEN",
+  "guildId": "YOUR_GUILD_ID",
+  "taskSheetId": "YOUR_SPREADSHEET_ID",
+  "logSheetName": "TaskLog",
+  "notificationSheetName": "NotificationQueue",
+  "tasksSheetName": "Tasks",
+  "fixedCategories": [
+    "企画",
+    "広報",
+    "出演者",
+    "打楽器",
+    "会計",
+    "要員",
+    "進行",
+    "終演後",
+    "次回準備"
+  ],
+  "fixedStatuses": ["未着手", "進行中", "完了"],
+  "reportChannelId": "DISCORD_CHANNEL_ID_FOR_PROGRESS_REPORT",
+  "notificationChannelId": "DISCORD_CHANNEL_ID_FOR_NOTIFICATIONS"
+}
